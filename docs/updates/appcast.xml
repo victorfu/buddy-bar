@@ -8,16 +8,16 @@
     <description>BuddyBar Sparkle appcast feed</description>
     <language>en</language>
     <item>
-      <title>Version 1.0.10</title>
-      <pubDate>Wed, 08 Apr 2026 16:11:08 GMT</pubDate>
+      <title>Version 1.0.11</title>
+      <pubDate>Thu, 09 Apr 2026 14:39:05 GMT</pubDate>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://victorfu.github.io/buddy-bar/releases/1.0.10/</sparkle:releaseNotesLink>
+      <sparkle:releaseNotesLink>https://victorfu.github.io/buddy-bar/releases/1.0.11/</sparkle:releaseNotesLink>
       <enclosure
-          url="https://github.com/victorfu/buddy-bar/releases/download/v1.0.10/BuddyBar-1.0.10-macOS.dmg"
-          sparkle:version="11"
-          sparkle:shortVersionString="1.0.10"
-          sparkle:edSignature="SUxPEe/KwpUSxS8RQXwifDseNeNl+cCj3os2SxWnQ6Wz/H2KxxMBsZJDsdAc73/GZw0yvu4w9sjzzZBI6ICvCg=="
-          length="5459351"
+          url="https://github.com/victorfu/buddy-bar/releases/download/v1.0.11/BuddyBar-1.0.11-macOS.dmg"
+          sparkle:version="12"
+          sparkle:shortVersionString="1.0.11"
+          sparkle:edSignature="lWswtmguqQtCTBmKcvg/bkal1/D5fDPVKlgQKdDqlIbpp5PXkNDSc75m4MsZhT/OI9nBX0JZRsU2i36kza72Ag=="
+          length="14500655"
           type="application/x-apple-diskimage" />
     </item>
   </channel>
