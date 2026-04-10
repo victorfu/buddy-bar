@@ -1,32 +1,45 @@
-# BuddyBar Distribution
+# BuddyBar
 
-This repository hosts BuddyBar's public release artifacts and update metadata.
+**A native macOS menu bar companion for Claude Code.**
 
-It does not contain the private BuddyBar application source code.
+BuddyBar puts Claude Code sessions, approvals, and buddy identity in your macOS menu bar. Built with Swift, AppKit, and SwiftUI — no Electron, no web views.
 
-## Purpose
+## Download
 
-- GitHub Releases stores public `BuddyBar.dmg` assets
-- GitHub Pages serves Sparkle appcast metadata
-- GitHub Pages serves versioned release notes
+Head to [**Releases**](https://github.com/victorfu/buddy-bar/releases/latest) and grab the latest `BuddyBar.dmg`.
 
-## Pages Layout
+**Requirements:** macOS 14 (Sonoma) or newer.
 
-GitHub Pages should publish from the `main` branch and `/docs` folder.
+## Install
 
-- Appcast: `docs/updates/appcast.xml`
-- Release notes: `docs/releases/<version>/index.html`
+1. Open the DMG and drag BuddyBar to Applications.
+2. Launch BuddyBar — it lives in your menu bar.
+3. If Claude Code CLI isn't installed yet, BuddyBar will walk you through setup on first launch.
 
-## Expected URLs
+## Auto Updates
 
-- Feed: `https://victorfu.github.io/buddy-bar/updates/appcast.xml`
-- Release notes: `https://victorfu.github.io/buddy-bar/releases/<version>/`
+BuddyBar checks for updates via Sparkle. When a new version is available, the app will prompt you to update in-app.
 
-## Publishing Model
+- Update feed: `https://victorfu.github.io/buddy-bar/updates/appcast.xml`
 
-The private `buddy-bar-code` repository is expected to:
+## Highlights
 
-1. Build and notarize `BuddyBar.dmg`
-2. Upload the DMG to this repository's GitHub Release
-3. Update `docs/updates/appcast.xml`
-4. Create `docs/releases/<version>/index.html`
+- **Glanceable session state** — idle, running, waiting-approval, compacting, completed, or error, right in the menu bar.
+- **Approval handling** — respond to Claude Code permission requests from a native UI instead of hunting for terminal tabs.
+- **Transcript-aware enrichment** — message counts, awaiting-input indicators, and activity timestamps surfaced automatically.
+- **Usage visibility** — live 5h / weekly usage from your Claude Code login, plus local lifetime stats.
+- **Sound cues and notifications** — configurable sounds and native macOS notifications for approvals and task completion.
+- **System health glance** — CPU load and memory pressure shown inline, no extra permissions needed.
+- **CLAUDE.md tools** — inspect, optimize, back up, and restore your workspace CLAUDE.md from Settings.
+- **Plugin Store** — browse and install Claude plugins directly from the app.
+- **Launch at login** — native macOS ServiceManagement toggle in Settings.
+
+## Release Notes
+
+Check the [Releases](https://github.com/victorfu/buddy-bar/releases) page for the full changelog per version.
+
+## Feedback
+
+Found a bug or have a feature request? Open an [issue](https://github.com/victorfu/buddy-bar/issues).
+
+
